@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:22.10
 LABEL description="Security & Quality CodeQL Container Build for Cool Applications"
 SHELL ["/bin/bash", "-c"]
 ENV TZ=America/New_York
